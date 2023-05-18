@@ -35,6 +35,7 @@ private TextView textView;
                 int b = Integer.parseInt(second);
                 int sum = a+b;
                 textView.setText("Answer : "+sum);
+                Toast.makeText(MainActivity.this, "Check Your Answer", Toast.LENGTH_SHORT).show();
             }
         });
     }
